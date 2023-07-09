@@ -8,7 +8,7 @@ void swap(int *p, int *q)
     *q = temp;
 }
 
-int bubble_sort(int arr[])
+void bubble_sort(int arr[])
 {
     for (int i = 0; i < sizeof(arr) - 1; i++)
     {
